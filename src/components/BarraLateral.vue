@@ -1,9 +1,9 @@
 <template>
   <header>
       <h1>
-        <img src="../assets/logo.png" alt="">  
+        <img src="../assets/logo.png" alt="See Tasks">  
       </h1>
-      <button class="button" @click="alterarTema">
+      <button class="button small-btn default-btn" @click="alterarTema">
         {{ textoBotao }}
       </button>
   </header>
@@ -23,9 +23,9 @@ export default defineComponent({
   computed: {
     textoBotao () {
       if (this.modoEscuroAtivo) {
-        return 'Desativar modo escuro'
+        return 'Modo claro'
       }
-      return 'Ativar modo escuro'
+      return 'Modo escuro'
     }
   },
   methods: {
@@ -40,7 +40,7 @@ export default defineComponent({
 <style scoped>
 header {
   padding: 1rem;
-  background: #0d3b66;
+  background: #0a2034;
   width: 100%;
   height: 100vh;
   text-align: center;
@@ -51,4 +51,19 @@ header {
     height: auto;
   }
 }
+
+.default-btn {
+  margin:15px;
+  background-color: #89d2ff;
+  color: #141414;
+  padding: 10px;
+  border-radius: 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.small-btn {
+        width: 125px;
+        height: 25px;
+    }
 </style>

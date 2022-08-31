@@ -1,24 +1,30 @@
-# alura-tracker
+<h1 align="center">See-Tasks</h1>
 
-## Project setup
+## Descrição do Projeto
+<p align="center">Gerenciar tempo gasto com tarefas</p>
+
+<p align="center">
+ <a href="#status">Status</a> •
+ <a href="#autor">Autor</a>
+</p>
+
+
+## Configuração do Projeto
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Compilar
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Status
+<h4 align="center" id="#status"> 
+	🚧  See Tasks - Em construção...  🚧
+</h4>
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Autor
+<h4 align="center" id="#autor"> 
+	Victor I. Limonti
+</h4>

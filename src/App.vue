@@ -36,11 +36,11 @@ export default defineComponent({
   padding: 1.25rem;
 }
 main {
-  --bg-primario: rgb(202, 224, 255);
+  --bg-primario: rgb(255, 255, 255);
   --texto-primario: #000;
 }
 main.modo-escuro {
-  --bg-primario: rgb(9, 12, 18, 1);
+  --bg-primario: rgb(78, 88, 108, 1);
   --texto-primario: #ddd;
 }
 .conteudo {

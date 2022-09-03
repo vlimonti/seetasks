@@ -1,25 +1,25 @@
 <template>
     <section class="projetos">
-        <h1 class="title">Projetos</h1>
         <form @submit.prevent="salvar">
-            <div class="field">
-                <label for="nomeDoProjeto" class="label">
-                    Nome do Projeto
-                </label>
-                <input 
-                    type="text" 
-                    class="input" 
-                    v-model="nomeDoProjeto" 
-                    id="nomeDoProjeto"
-                />
-            </div>
-            <div class="field">
-                <button class="button" type="submit">
-                    Salvar
-                </button>
+            <div class="columns">
+                <div class="column is-9" role="form">
+                    <input 
+                        type="text" 
+                        class="input" 
+                        placeholder="Digite o nome do projeto..."
+                        v-model="nomeDoProjeto" 
+                        id="nomeDoProjeto"
+                    />
+                </div>
+                <div class="column is-3">
+                    <button class="button" type="submit">
+                        Salvar
+                    </button>
+                </div>
             </div>
         </form>
-        <table class="table is-fullwidth">
+        <div><br></div>
+        <table class="table is-fullwidth is-striped is-hoverable">
             <thead>
                 <tr>
                     <th>ID</th>

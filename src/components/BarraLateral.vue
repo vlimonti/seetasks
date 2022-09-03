@@ -56,45 +56,53 @@ export default defineComponent({
 </script>
 
 <style scoped>
-header {
-  padding: 1rem;
-  background: #0a2034;
-  width: 100%;
-  height: 100vh;
-  text-align: center;
-}
-@media only screen and (max-width: 768px) {
   header {
-    padding: 2.5rem;
-    height: auto;
+    padding: 1rem;
+    background: #0a2034;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
   }
-}
+  @media only screen and (max-width: 768px) {
+    header {
+      padding: 2.5rem;
+      height: auto;
+    }
+  }
 
-.default-btn {
-  margin:15px;
-  background-color: #89d2ff;
-  color: #141414;
-  padding: 10px;
-  border-radius: 5px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-}
+  .default-btn {
+    margin:15px;
+    background-color: #dae5eb;
+    color: #141414;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+  }
 
-.small-btn {
-        width: 125px;
-        height: 25px;
-}
+  .default-btn:hover {
+    background-color: #96bed5;
+  }
 
-.panel li {
-    margin: 8px 0;
-}
-.link {
-    color: #fff;
-}
-.link:hover {
-    color: #FAF0CA;
-}
-.link.router-link-active {
-    color: #FAF0CA;
-}
+  .small-btn {
+          width: 125px;
+          height: 25px;
+  }
+
+  .panel li {
+      margin: 8px 0;
+  }
+
+  .link {
+      color: #fff;
+  }
+
+  .link:hover {
+      color: #bbd6ff;
+  }
+
+  .link.router-link-active {
+      color: #bbd6ff;
+  }
+
 </style>
